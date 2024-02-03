@@ -6,17 +6,64 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct ContentView: View {
+    
+    @State private var girisYapildi = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        if girisYapildi{
+            VStack {
+                Text("Ana Sayfa")
+                
+                
+                
+                
+                
+                
+                
+                
+                Spacer()
+                Button {
+                    let firebaseAuth = Auth.auth()
+                    do {
+                      try firebaseAuth.signOut()
+                        girisYapildi = false
+                    } catch let signOutError as NSError {
+                      print("Error signing out: %@", signOutError)
+                    }
+                } label: {
+                    
+                    Text("ÇIKIŞ")
+                    
+                    
+                }
+
+            }
+        }else{
+            content
         }
-        .padding()
+        
+       
+        
+        
+        
+        
     }
+    
+    
+    
+    
+    
+    var content: some View{
+        GirisYap(girisYapildi: $girisYapildi)
+    }
+    
+    
+    
+    
 }
 
 #Preview {

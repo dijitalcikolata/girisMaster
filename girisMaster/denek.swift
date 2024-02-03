@@ -1,18 +1,19 @@
-//
-//  denek.swift
-//  girisMaster
-//
-//  Created by MURAT HASIRCI on 25.01.2024.
-//
-
 import SwiftUI
+
 
 struct denek: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            // Diğer arayüz elemanları buraya eklenebilir
+            Text("hh")
+                .padding()
+        }
+        .padding()
     }
 }
 
-#Preview {
-    denek()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        denek()
+    }
 }

@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		431749E52B6BB101002B2AC9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 431749E42B6BB101002B2AC9 /* FirebaseAuth */; };
+		431749E72B6BB6C2002B2AC9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 431749E62B6BB6C2002B2AC9 /* GoogleService-Info.plist */; };
+		436F5E7D2B6ED91C006D370A /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 436F5E7C2B6ED91C006D370A /* GoogleSignIn */; };
+		436F5E7F2B6ED91C006D370A /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 436F5E7E2B6ED91C006D370A /* GoogleSignInSwift */; };
+		436F5E842B6EE1A8006D370A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 436F5E832B6EE1A8006D370A /* FirebaseAnalytics */; };
+		436F5E862B6EE1BB006D370A /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 436F5E852B6EE1BB006D370A /* FirebaseAnalyticsSwift */; };
+		438CC9F52B624D660065A1E1 /* denek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438CC9F42B624D660065A1E1 /* denek.swift */; };
 		43A616AA2B604BEE0067309C /* girisMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A616A92B604BEE0067309C /* girisMasterApp.swift */; };
 		43A616AC2B604BEE0067309C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A616AB2B604BEE0067309C /* ContentView.swift */; };
 		43A616AE2B604BF20067309C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A616AD2B604BF20067309C /* Assets.xcassets */; };
 		43A616B12B604BF20067309C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A616B02B604BF20067309C /* Preview Assets.xcassets */; };
+		43A616B82B6055CC0067309C /* KayitOl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A616B72B6055CC0067309C /* KayitOl.swift */; };
+		43A616BA2B605A630067309C /* GirisYap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A616B92B605A630067309C /* GirisYap.swift */; };
+		43A616BC2B605C030067309C /* Profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A616BB2B605C030067309C /* Profil.swift */; };
+		43C90C072B6D865A00991142 /* Sosyal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C90C062B6D865A00991142 /* Sosyal.swift */; };
+		43C90C0D2B6D9E6A00991142 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C90C0C2B6D9E6A00991142 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		431749E62B6BB6C2002B2AC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		436F5E802B6EDB26006D370A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		438CC9F42B624D660065A1E1 /* denek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = denek.swift; sourceTree = "<group>"; };
 		43A616A62B604BEE0067309C /* girisMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = girisMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A616A92B604BEE0067309C /* girisMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = girisMasterApp.swift; sourceTree = "<group>"; };
 		43A616AB2B604BEE0067309C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43A616AD2B604BF20067309C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43A616B02B604BF20067309C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43A616B72B6055CC0067309C /* KayitOl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitOl.swift; sourceTree = "<group>"; };
+		43A616B92B605A630067309C /* GirisYap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirisYap.swift; sourceTree = "<group>"; };
+		43A616BB2B605C030067309C /* Profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profil.swift; sourceTree = "<group>"; };
+		43C90C062B6D865A00991142 /* Sosyal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sosyal.swift; sourceTree = "<group>"; };
+		43C90C0B2B6D987A00991142 /* girisMaster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = girisMaster.entitlements; sourceTree = "<group>"; };
+		43C90C0C2B6D9E6A00991142 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +47,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				436F5E7F2B6ED91C006D370A /* GoogleSignInSwift in Frameworks */,
+				431749E52B6BB101002B2AC9 /* FirebaseAuth in Frameworks */,
+				436F5E842B6EE1A8006D370A /* FirebaseAnalytics in Frameworks */,
+				436F5E7D2B6ED91C006D370A /* GoogleSignIn in Frameworks */,
+				436F5E862B6EE1BB006D370A /* FirebaseAnalyticsSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		431749E32B6BB101002B2AC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		43A6169D2B604BEE0067309C = {
 			isa = PBXGroup;
 			children = (
 				43A616A82B604BEE0067309C /* girisMaster */,
 				43A616A72B604BEE0067309C /* Products */,
+				431749E32B6BB101002B2AC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +85,15 @@
 		43A616A82B604BEE0067309C /* girisMaster */ = {
 			isa = PBXGroup;
 			children = (
+				436F5E802B6EDB26006D370A /* Info.plist */,
+				43C90C0B2B6D987A00991142 /* girisMaster.entitlements */,
 				43A616A92B604BEE0067309C /* girisMasterApp.swift */,
 				43A616AB2B604BEE0067309C /* ContentView.swift */,
+				43A616BB2B605C030067309C /* Profil.swift */,
+				438CC9F42B624D660065A1E1 /* denek.swift */,
+				43C90C082B6D8B3700991142 /* Giris */,
 				43A616AD2B604BF20067309C /* Assets.xcassets */,
+				431749E62B6BB6C2002B2AC9 /* GoogleService-Info.plist */,
 				43A616AF2B604BF20067309C /* Preview Content */,
 			);
 			path = girisMaster;
@@ -65,6 +105,17 @@
 				43A616B02B604BF20067309C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43C90C082B6D8B3700991142 /* Giris */ = {
+			isa = PBXGroup;
+			children = (
+				43C90C062B6D865A00991142 /* Sosyal.swift */,
+				43A616B72B6055CC0067309C /* KayitOl.swift */,
+				43A616B92B605A630067309C /* GirisYap.swift */,
+				43C90C0C2B6D9E6A00991142 /* LoginViewModel.swift */,
+			);
+			path = Giris;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +134,13 @@
 			dependencies = (
 			);
 			name = girisMaster;
+			packageProductDependencies = (
+				431749E42B6BB101002B2AC9 /* FirebaseAuth */,
+				436F5E7C2B6ED91C006D370A /* GoogleSignIn */,
+				436F5E7E2B6ED91C006D370A /* GoogleSignInSwift */,
+				436F5E832B6EE1A8006D370A /* FirebaseAnalytics */,
+				436F5E852B6EE1BB006D370A /* FirebaseAnalyticsSwift */,
+			);
 			productName = girisMaster;
 			productReference = 43A616A62B604BEE0067309C /* girisMaster.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +169,10 @@
 				Base,
 			);
 			mainGroup = 43A6169D2B604BEE0067309C;
+			packageReferences = (
+				431749E22B6BAEFD002B2AC9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				436F5E7B2B6ED91C006D370A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = 43A616A72B604BEE0067309C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +189,7 @@
 			files = (
 				43A616B12B604BF20067309C /* Preview Assets.xcassets in Resources */,
 				43A616AE2B604BF20067309C /* Assets.xcassets in Resources */,
+				431749E72B6BB6C2002B2AC9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +201,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				43A616AC2B604BEE0067309C /* ContentView.swift in Sources */,
+				438CC9F52B624D660065A1E1 /* denek.swift in Sources */,
+				43A616BA2B605A630067309C /* GirisYap.swift in Sources */,
 				43A616AA2B604BEE0067309C /* girisMasterApp.swift in Sources */,
+				43C90C0D2B6D9E6A00991142 /* LoginViewModel.swift in Sources */,
+				43A616BC2B605C030067309C /* Profil.swift in Sources */,
+				43C90C072B6D865A00991142 /* Sosyal.swift in Sources */,
+				43A616B82B6055CC0067309C /* KayitOl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +338,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = girisMaster/girisMaster.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"girisMaster/Preview Content\"";
 				DEVELOPMENT_TEAM = PWQ237GKJN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = girisMaster/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -298,12 +369,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = girisMaster/girisMaster.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"girisMaster/Preview Content\"";
 				DEVELOPMENT_TEAM = PWQ237GKJN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = girisMaster/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +417,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		431749E22B6BAEFD002B2AC9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+		436F5E7B2B6ED91C006D370A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		431749E42B6BB101002B2AC9 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 431749E22B6BAEFD002B2AC9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		436F5E7C2B6ED91C006D370A /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 436F5E7B2B6ED91C006D370A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		436F5E7E2B6ED91C006D370A /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 436F5E7B2B6ED91C006D370A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		436F5E832B6EE1A8006D370A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 431749E22B6BAEFD002B2AC9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		436F5E852B6EE1BB006D370A /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 431749E22B6BAEFD002B2AC9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 43A6169E2B604BEE0067309C /* Project object */;
 }
